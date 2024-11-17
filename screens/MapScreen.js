@@ -4,7 +4,7 @@ import MapView, { Marker, Polyline } from 'react-native-maps';
 import * as Location from 'expo-location';
 import axios from 'axios';
 
-const GOOGLE_MAPS_API_KEY = 'AIzaSyBZ2QGaYodTEtI42nz_WpdAkjBnOyJpCbo'; // Replace with your Google Maps API key
+const GOOGLE_MAPS_API_KEY = 'your_api_key'; // Replace with your Google Maps API key
 
 const MapScreen = () => {
   const [location, setLocation] = useState(null);
